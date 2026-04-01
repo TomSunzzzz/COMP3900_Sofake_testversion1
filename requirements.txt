@@ -1,0 +1,18 @@
+# --- Backend & API ---
+fastapi==0.115.13
+uvicorn==0.34.3
+pydantic==2.12.5
+
+# --- Database ---
+sqlalchemy==2.0.41
+greenlet==3.3.2
+
+# --- AI & Logic ---
+openai==2.30.0
+groq
+networkx
+python-dotenv==1.2.2
+
+# --- Testing ---
+pytest==9.0.2
+pytest-mock
