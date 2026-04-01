@@ -3,12 +3,12 @@
 This is the official repository for the COMP3900 project: **SoFake**.
 Our system integrates LLM-based agent networks with sophisticated deviation evaluation (FUSE).
 
-## Team Information
-- **Lead Tester**: Tom Sun (z5408739)
-- **Sprint 1 Focus**: Unit Testing & Integration Verification
+## Repo member Information
+- **Tester**: Tom Sun (z5408739)
+- **Focus**: Unit Testing & Integration Verification
 
 ## Project Structure
-- `frontend/`: React-based user interface.
+- `frontend/`: React-based user interface(Devin).
 - `Agent_network/`: Core logic for agent interactions (Gardner).
 - `database/`: Persistence layer for storing news data (Yuchen).
 - `FUSE/`: Multi-dimensional evaluation system (Tom/William).
