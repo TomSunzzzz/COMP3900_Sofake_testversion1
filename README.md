@@ -20,7 +20,7 @@ Our system integrates LLM-based agent networks with sophisticated deviation eval
 
 
 3. Install Frontend dependencies:
-    `cd frontend && npm install`
+    `cd Frontend\soFake && npm install`
 
 Running Unit Tests
 We have achieved 100% pass rate for Sprint 1 core modules:
