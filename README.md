@@ -16,23 +16,23 @@ Our system integrates LLM-based agent networks with sophisticated deviation eval
 ## Setup & Installation
 1. **Clone the repo**: `git clone <your-repo-url>`
 2. **Install Python dependencies**:
-   pip install -r requirements.txt
+   `pip install -r requirements.txt>`
 
 
 3. Install Frontend dependencies:
-    cd frontend && npm install
+    `cd frontend && npm install>`
 
 Running Unit Tests
 We have achieved 100% pass rate for Sprint 1 core modules:
 
 1. Frontend Tests
-cd frontend && npm test
+`cd Frontend\soFake\src && npm test>`
 
 2. Agent Network Tests
-python -m pytest Agent_network/
+`cd Agent_network && python -m pytest>`
 
 3. Database Tests
-python -m pytest database/
+`cd DB\comp3900_project_SoFake\backend && python -m pytest>`
 
 4. FUSE Evaluation Tests
-python -m pytest FUSE/
+`cd Fuse_Eval\fake_news_project\FUSE && python -m pytest>`
