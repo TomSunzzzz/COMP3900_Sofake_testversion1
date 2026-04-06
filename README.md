@@ -28,11 +28,5 @@ We have achieved 100% pass rate for Sprint 1 core modules:
 1. Frontend Tests
 `cd Frontend\soFake\src && npm test`
 
-2. Agent Network Tests
-`cd Agent_network && python -m pytest`
-
-3. Database Tests
-`cd DB\comp3900_project_SoFake\backend && python -m pytest`
-
-4. FUSE Evaluation Tests
-`cd Fuse_Eval\fake_news_project\FUSE && python -m pytest`
+2. Running all other tests
+`python -m pytest tests/`

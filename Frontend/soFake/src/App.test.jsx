@@ -1,10 +1,10 @@
 /**
  * @vitest-environment jsdom
  */
-import { describe, it, expect } from 'vitest';
+//import { describe, it, expect } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import App from '../Frontend/soFake/src/App';
+import App from './App';
 
 describe('SoFake Frontend Unit Tests', () => {
   
